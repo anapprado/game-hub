@@ -3,7 +3,6 @@ import { Card, CardBody, Heading, HStack, Image } from '@chakra-ui/react'
 import { Game } from '../hooks/useGames'
 import PlatformIconList from './PlatformIconList'
 import CriticScore from './CriticScore'
-import { FaMedal } from 'react-icons/fa'
 
 interface Props {
     game: Game
